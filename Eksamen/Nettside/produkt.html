@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="icons/css/fontawesome.css" rel="stylesheet" />
+    <link href="icons/css/brands.css" rel="stylesheet" />
+    <link href="icons/css/all.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkt</title>
+  </head>
+  <body>
+    <div id="flex-container">
+      <header id="global-header">
+        <form id="search">
+          <input type="search" placeholder="Søk her" id="søkefelt" />
+          <label class="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </form>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html">Produkter</a></li>
+            <li>
+              <!-- Logo bildet tatt fra: https://www.pngegg.com/en/png-tzzuz/download?height=500#goog_rewarded -->
+              <a href="index.html"
+                ><img
+                  src="./bilder/logo.png"
+                  alt="Nettside logo"
+                  class="logo-header"
+              /></a>
+            </li>
+            <li><a href="#">Kategorier</a></li>
+            <li><a href="#ingress">Kontakt oss</a></li>
+          </ul>
+        </nav>
+        <label id="icons-hoyre">
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <a href="checkout.html"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </label>
+      </header>
+      <main id="produkt-siden" class="main-mellomrom">
+        <nav class="brodsmule-sti">
+          <a href="index.html">Hjem</a>
+          <a href="index.html">Kategori</a>
+          <a href="produkt.html">Louis Vuitton - Dress</a>
+        </nav>
+        <div class="flex-wrap">
+          <figure class="produkt-bildene">
+            <aside class="smabilder">
+              <img
+                src="./bilder/dressmann.jpg"
+                alt="Wedding dress view 1"
+                loading="lazy"
+              />
+              <img
+                src="./bilder/dressmann.jpg"
+                alt="Wedding dress view 2"
+                loading="lazy"
+              />
+              <img
+                src="./bilder/dressmann.jpg"
+                alt="Wedding dress view 3"
+                loading="lazy"
+              />
+            </aside>
+            <figure class="hoved-bilde">
+              <img
+                src="./bilder/dressmann.jpg"
+                alt="Beige wedding dress on mannequin"
+              />
+            </figure>
+          </figure>
+
+          <section class="produkt-info">
+            <h1>Louis Vuitton - Skinndress</h1>
+            <a href="#" class="merke">Louis Vuitton</a>
+            <p class="pris">5 195 kr inkl. mva.</p>
+            <p>Farge: <strong>Svart/grå</strong></p>
+
+            <form>
+              <label for="size">Velg størrelse</label>
+              <select id="size" name="size" required>
+                <option value="">Velg størrelse</option>
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+
+              <div class="valg">
+                <button type="submit" class="legg-til-handlekurv">
+                  Legg i handlekurv
+                </button>
+                <button
+                  type="button"
+                  class="onskeliste"
+                  aria-label="Add to wishlist"
+                >
+                  ♡
+                </button>
+              </div>
+            </form>
+
+            <details>
+              <summary>Matriale og vedlikehold</summary>
+              <p>
+                <strong>Overmateriale: </strong> 98%
+              </p>
+
+              <p>
+                <strong>fôr: </strong> 100% polyester
+              </p>
+
+              <p>
+                <strong>Vedlikeholdsråd: </strong> Kjemisk rens
+              </p>
+            </details>
+
+            <details>
+              <summary>Produktdetaljer</summary>
+              <p><strong>Høyde til midje:</strong> Høy</p>
+                <p><strong>Krage: </strong> Fancy-Krage</p>
+                <p><strong>Lukking </strong> Knapp</p>
+                <p><strong>Mønster </strong> Ensfarget</p>
+                <p><strong>Artikkelnummer: </strong> OH02215213-S31</p>
+                
+                
+            </details>
+
+            <details>
+              <summary>Størrelsestablell</summary>
+              <p>    
+                <table>
+                  <thead>
+                      <tr>
+                          <th scope="col">EU</th>
+                          <th scope="col">INT</th>
+                          <th scope="col">BRYSTVIDDE</th>
+                          <th scope="col">LIVVIDDE</th>
+                          <th scope="col">HOFTEMÅL</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>32</td>
+                          <td>XXS</td>
+                          <td>76</td>
+                          <td>63</td>
+                          <td>85</td>
+                      </tr>
+                      <tr>
+                          <td>34</td>
+                          <td>XS</td>
+                          <td>80</td>
+                          <td>66</td>
+                          <td>89</td>
+                      </tr>
+                      <tr>
+                          <td>36</td>
+                          <td>S</td>
+                          <td>84</td>
+                          <td>69</td>
+                          <td>93</td>
+                      </tr>
+                      <tr>
+                          <td>38</td>
+                          <td>M</td>
+                          <td>88</td>
+                          <td>72</td>
+                          <td>97</td>
+                      </tr>
+                      <tr>
+                          <td>40</td>
+                          <td>L</td>
+                          <td>92</td>
+                          <td>76</td>
+                          <td>100</td>
+                      </tr>
+                      <tr>
+                          <td>42</td>
+                          <td>XL</td>
+                          <td>96</td>
+                          <td>80</td>
+                          <td>103</td>
+                      </tr>
+                  </tbody>
+              </table>
+            </details>
+
+            <details>
+              <summary id="anmeldelser-produkt">
+                Anmeldelser
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </summary>
+              <article id="stjerne-produkt">
+                <h5>Robert Lasdodel</h5>
+                <p>2024 - 11 - 05</p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <p>
+                  Vivamus et gravida quam. Quisque in nulla gravida magna
+                  bibendum molestie.
+                </p>
+              </article>
+            </details>
+          </section>
+        </div>
+        <section id="lignende-produkter">
+          <h2>Lignende produkter</h2>
+          <a href="index.html"
+            >Se flere lignende produkter <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </section>
+        <div id="produktene-overflow">
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+          <article class="product-card-overflow">
+            <picture>
+              <!-- Bildet er tatt av <a href="https://pixabay.com/no/users/matham315-4262769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">matham315</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1979136">Pixabay</a> -->
+              <img src="bilder/dressanmeldelse.jpg" alt="dress" class="skobilde" />
+            </picture>
+            <header>
+              <a href="#"><h3>Gucci - Silkedress</h3></a>
+              <p>Kr 1299</p>
+            </header>
+            <footer class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <h4>842</h4>
+            </footer>
+          </article>
+        </div>
+      </main>
+      <footer>
+        <nav id="ingress">
+          <ul>
+            <li>
+              <a href="index.html"
+                ><img
+                  src="./bilder/logo.png"
+                  alt="Nettside logo"
+                  class="logo-header"
+              /></a>
+            </li>
+          </ul>
+          <p>
+            Quisque mollis erat dolor, in lacinia arcu aliquam nec. dolor, in
+            lacinia arcu aliquam nec. Suspendisse id sagittis tortor.
+          </p>
+        </nav>
+
+        <div class="flex-wrap justify-between">
+          <section id="kontakt">
+            <h4>KONTAKT</h4>
+            <section class="informasjon">
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Adresse:</h5>
+              <p>F.A Gate 48 1720 Sarpelona</p>
+            </section>
+            <section class="informasjon">
+              <i class="fa-solid fa-phone"></i>
+              <h5>Telefon:</h5>
+              <p>+47 69 72 80 40</p>
+            </section>
+            <section class="informasjon">
+              <i class="fa-solid fa-envelope"></i>
+              <h5>E-Post:</h5>
+              <p>JimmyBu@hiof.no</p>
+            </section>
+            <section class="informasjon">
+              <i class="fa-solid fa-clock"></i>
+              <h5>Åpningstider:</h5>
+              <p>08:00 - 20:00</p>
+            </section>
+          </section>
+
+          <nav id="snarveier">
+            <aside>
+              <h4>SNARVEIER</h4>
+              <ul>
+                <li><a href="produkt.html">Produkter</a></li>
+                <li><a href="#kategori-grid">Kategorier</a></li>
+                <li><a href="#">Kontakt oss</a></li>
+                <li><a href="WCAG.pdf">Tilgjengelighetserklæring</a></li>
+              </ul>
+            </aside>
+          </nav>
+
+          <section id="sosiale-medier">
+            <h4>SOSIALE MEDIER</h4>
+            <label class="sosiale-footer">
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://no.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
+            </label>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
